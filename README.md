@@ -164,9 +164,11 @@ Raja/
 
 ## Deployment
 
-Repository GitHub : `https://hafidzraza99-max.github.io/ZOORA-Tempest/` 
-GitHub Pages : `https://github.com/hafidzraza99-max/ZOORA-Tempest` 
-Demo lokal : `index.html`
+Repository GitHub : <https://hafidzraza99-max.github.io/ZOORA-Tempest/>
+
+GitHub Pages : <https://github.com/hafidzraza99-max/ZOORA-Tempest>
+
+Demo lokal : <>
 
 ## Catatan
 
