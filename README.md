@@ -2,6 +2,7 @@
 
 > Prototype marketplace hewan peliharaan yang responsif, interaktif, dan berorientasi pada pengalaman belanja yang aman.
 
+
 ## Informasi Proyek
 
 | Item | Keterangan |
@@ -9,9 +10,10 @@
 | Nama bisnis | ZOORA Tempest |
 | Model bisnis | B2C marketplace kebutuhan dan hewan peliharaan |
 | Teknologi | HTML5, CSS3, JavaScript (Vanilla ES6+), localStorage |
-| Repository GitHub | `[isi link repository di sini]` |
-| GitHub Pages | `[isi link GitHub Pages di sini]` |
-| Demo lokal | Buka `index.html` melalui browser |
+| Repository GitHub | `https://hafidzraza99-max.github.io/ZOORA-Tempest/` |
+| GitHub Pages | `https://github.com/hafidzraza99-max/ZOORA-Tempest` |
+| Demo lokal | Buka `index.html` |
+
 
 ## Deskripsi & Proposisi Nilai
 
@@ -160,9 +162,11 @@ Raja/
 | --- | --- |
 | ![Marketplace mobile](screenshots/12-marketplace-mobile.png) | ![Admin mobile](screenshots/13-admin-mobile.png) |
 
-## Kontrol Versi & Deployment
+## Deployment
 
-Gunakan commit Git yang bermakna, misalnya: `feat: tambah checkout`, `fix: perbaiki responsif mobile`, atau `docs: lengkapi README`. Setelah repository diunggah ke GitHub, aktifkan GitHub Pages melalui **Settings → Pages** dan masukkan tautannya pada bagian Informasi Proyek.
+Repository GitHub : `https://hafidzraza99-max.github.io/ZOORA-Tempest/` 
+GitHub Pages : `https://github.com/hafidzraza99-max/ZOORA-Tempest` 
+Demo lokal : `index.html`
 
 ## Catatan
 
