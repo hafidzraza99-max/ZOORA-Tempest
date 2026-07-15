@@ -9,9 +9,9 @@
 | Nama bisnis | ZOORA Tempest |
 | Model bisnis | B2C marketplace kebutuhan dan hewan peliharaan |
 | Teknologi | HTML5, CSS3, JavaScript (Vanilla ES6+), localStorage |
-| Repository GitHub | `[isi link repository di sini]` |
-| GitHub Pages | `[isi link GitHub Pages di sini]` |
-| Demo lokal | Buka `index.html` melalui browser |
+| Repository GitHub | `https://hafidzraza99-max.github.io/ZOORA-Tempest/` |
+| GitHub Pages | `https://github.com/hafidzraza99-max/ZOORA-Tempest` |
+| Demo lokal | Buka `index.html` |
 
 ## Deskripsi & Proposisi Nilai
 
