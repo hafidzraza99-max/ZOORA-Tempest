@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin — ZOORA Tempest</title>
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="css/admin-extra.css">
+    <link rel="stylesheet" href="css/admin-mobile-fix.css">
+</head>
+
+<body>
+    <header><a href="admin.html" class="brand"><span>Z</span>ZOORA Tempest <small>Admin</small></a><button
+            id="logoutButton">Keluar</button></header>
+    <main>
+        <section class="title">
+            <div>
+                <p>DASBOR ADMIN</p>
+                <h1>Halo, <span id="adminName">Admin</span> 👋</h1><small>Ringkasan aktivitas toko hari ini.</small>
+            </div><button id="addProduct">+ Tambah produk</button>
+        </section>
+        <section class="stats">
+            <article><span>Rp7.976.254.350.</span><small>Penjualan bulan ini</small></article>
+            <article><span>128</span><small>Pesanan baru</small></article>
+            <article><span id="activeProductCount">0</span><small>Produk aktif</small></article>
+            <article><span>4.9/5</span><small>Rating toko</small></article>
+        </section>
+        <section class="panel">
+            <div class="panel-heading">
+                <h2>Produk aktif</h2><button id="manageButton">Kelola katalog</button>
+            </div>
+            <p class="catalog-note">Klik produk untuk mengubah detail atau stok.</p>
+            <div class="product-list" id="productList"></div>
+        </section>
+    </main>
+    <div class="toast" id="toast"></div>
+    <section class="admin-modal" id="productModal" aria-hidden="true">
+        <div class="admin-modal-card"><button class="modal-close" id="closeModal" aria-label="Tutup">×</button>
+            <p class="modal-label" id="modalLabel">TAMBAH PRODUK</p>
+            <h2 id="modalTitle">Produk baru</h2>
+            <form id="productForm"><label>Nama produk<input id="productName" required
+                        placeholder="Contoh: Hamster Syrian"></label><label>Harga (Rp)<input id="productPrice" required
+                        type="number" min="0" placeholder="0"></label><label>Stok tersedia<input id="productStock"
+                        required type="number" min="0" placeholder="0"></label><label>Kategori<select
+                        id="productCategory">
+                        <option>Mamalia</option>
+                        <option>Reptil</option>
+                    </select></label><label>Gambar produk<input id="productImage" type="file" accept="image/*"><small
+                        class="image-help">Pilih gambar JPG, PNG, atau WebP.</small></label><img id="imagePreview"
+                    class="image-preview" alt="Pratinjau gambar produk" hidden><button type="submit"
+                    id="saveProduct">Simpan produk</button></form>
+        </div>
+    </section>
+    <script src="js/admin.js"></script>
+</body>
+
+</html>
