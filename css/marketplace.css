@@ -1,0 +1,170 @@
+.brand i {
+  font-style: normal;
+  color: var(--brand);
+}
+.logout-link {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-decoration: none;
+}
+.logout-link:hover {
+  color: var(--brand);
+}
+.category-card[data-category="Aksesoris"],
+.category-card[data-category="Makanan"] {
+  display: none;
+}
+.category-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+.history-button {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 9px;
+  padding: 9px 10px;
+  color: var(--ink);
+  font: 700 0.75rem "DM Sans";
+  cursor: pointer;
+}
+.checkout-modal,
+.history-modal {
+  display: grid;
+  place-items: center;
+  position: fixed;
+  inset: 0;
+  z-index: 45;
+  padding: 18px;
+  background: rgba(11, 19, 34, 0.48);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.2s;
+}
+.checkout-modal.open,
+.history-modal.open {
+  opacity: 1;
+  visibility: visible;
+}
+.checkout-card,
+.history-card {
+  position: relative;
+  width: min(100%, 510px);
+  max-height: 94vh;
+  overflow: auto;
+  background: #fff;
+  border-radius: 18px;
+  padding: 29px;
+}
+.checkout-card h2,
+.history-card h2 {
+  margin: 0 0 16px;
+  font-size: 1.55rem;
+}
+.modal-close {
+  position: absolute;
+  right: 16px;
+  top: 12px;
+  border: 0;
+  background: transparent;
+  font-size: 1.8rem;
+  color: var(--muted);
+  cursor: pointer;
+}
+.checkout-card label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  margin: 12px 0;
+}
+.checkout-card input,
+.checkout-card textarea,
+.checkout-card select {
+  width: 100%;
+  margin-top: 5px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 11px;
+  font: inherit;
+  outline-color: var(--brand);
+}
+.checkout-card textarea {
+  height: 76px;
+  resize: vertical;
+}
+.stock-check { margin-top: 18px; padding: 13px; border: 1px solid #cfe9d7; border-radius: 10px; background: #f3fbf5; }
+.stock-check > div:first-child, .checkout-stock-list p { display: flex; justify-content: space-between; gap: 10px; }
+.stock-check > div:first-child { color: #216b42; font-size: 0.82rem; font-weight: 800; }
+.stock-check small { color: #5b7766; font-weight: 500; }
+.checkout-stock-list p { margin: 9px 0 0; color: var(--ink); font-size: 0.78rem; }
+.checkout-stock-list strong { color: #228451; white-space: nowrap; }
+.checkout-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 14px;
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+  font-size: 0.86rem;
+}
+.checkout-summary strong {
+  font: 800 1.25rem Outfit;
+  color: var(--brand);
+}
+.checkout-success {
+  text-align: center;
+  padding: 18px 5px;
+}
+.checkout-success p:not(.eyebrow) {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.success-logo {
+  display: grid;
+  place-items: center;
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  background: #e7f7eb;
+  color: #229350;
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin: 0 auto 16px;
+}
+.checkout-success strong {
+  display: block;
+  color: var(--ink);
+  margin: 14px 0 20px;
+  font-size: 0.8rem;
+}
+.history-entry {
+  border-top: 1px solid var(--line);
+  padding: 13px 0;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 4px;
+  font-size: 0.83rem;
+}
+.history-entry small {
+  color: var(--muted);
+}
+.history-entry b {
+  color: var(--brand);
+}
+.history-empty {
+  color: var(--muted);
+  font-size: 0.9rem;
+  padding: 18px 0;
+}
+@media (max-width: 520px) {
+  .logout-link,
+  .history-button {
+    display: none;
+  }
+  .category-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .checkout-card,
+  .history-card {
+    padding: 24px 18px;
+  }
+}

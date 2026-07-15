@@ -1,0 +1,11 @@
+@media (max-width: 600px) {
+  .logout-link,
+  .history-button { display: none; }
+
+  .header-main { gap: 8px; }
+  .brand { font-size: 1.1rem; }
+  .brand-mark { width: 27px; height: 27px; }
+
+  .product-bottom { align-items: stretch; flex-direction: column; gap: 8px; }
+  .add-button { width: 100%; }
+}

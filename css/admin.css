@@ -1,0 +1,245 @@
+:root {
+  --ink: #14213d;
+  --orange: #ff6b35;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #f8f9fb;
+  color: var(--ink);
+  font-family: Arial, sans-serif;
+}
+header {
+  height: 70px;
+  background: #fff;
+  padding: 0 max(22px, calc((100% - 1120px) / 2));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eaecef;
+}
+.brand {
+  font-weight: 800;
+  text-decoration: none;
+  color: var(--ink);
+  font-size: 1.2rem;
+}
+.brand span {
+  background: var(--orange);
+  color: #fff;
+  border-radius: 8px;
+  padding: 6px 9px;
+  margin-right: 5px;
+}
+.brand small {
+  font-size: 0.7rem;
+  color: #fff;
+  background: var(--ink);
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+button {
+  border: 0;
+  cursor: pointer;
+  border-radius: 7px;
+  padding: 10px 13px;
+  font-weight: 700;
+}
+header button {
+  background: #ffe5dc;
+  color: #ce4617;
+}
+main {
+  max-width: 1120px;
+  margin: auto;
+  padding: 45px 20px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 30px;
+}
+.title p,
+.modal-label {
+  color: var(--orange);
+  font-size: 0.7rem;
+  letter-spacing: 1.3px;
+  font-weight: bold;
+  margin: 0;
+}
+.title h1 {
+  margin: 7px 0;
+  font-size: 2rem;
+}
+.title small {
+  color: #6d7785;
+}
+.title button,
+#productForm button {
+  background: var(--orange);
+  color: #fff;
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 17px;
+}
+.stats article,
+.panel {
+  background: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  padding: 22px;
+}
+.stats span {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+.stats small {
+  color: #6d7785;
+  font-size: 0.78rem;
+}
+.panel {
+  margin-top: 25px;
+}
+.panel-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.panel h2 {
+  font-size: 1.2rem;
+}
+.panel-heading button,
+.edit-button {
+  background: #eff2f5;
+  color: var(--ink);
+  font-size: 0.75rem;
+}
+.catalog-note {
+  color: #6d7785;
+  font-size: 0.78rem;
+}
+.product-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr auto;
+  gap: 10px;
+  align-items: center;
+  border-top: 1px solid #eef0f2;
+  padding: 15px 0;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.product-row:hover {
+  background: #fff8f4;
+}
+.product-row i {
+  font-style: normal;
+  color: #16834a;
+  background: #e7f6ed;
+  width: max-content;
+  padding: 4px 7px;
+  border-radius: 8px;
+  font-size: 0.72rem;
+}
+.stock {
+  color: #6d7785;
+  font-size: 0.78rem;
+}
+.toast {
+  position: fixed;
+  bottom: 22px;
+  left: 50%;
+  transform: translate(-50%, 80px);
+  transition: 0.2s;
+  background: var(--ink);
+  color: #fff;
+  padding: 11px 16px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+}
+.toast.show {
+  transform: translate(-50%, 0);
+}
+.admin-modal {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 18px;
+  background: rgba(9, 18, 32, 0.48);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.2s;
+}
+.admin-modal.open {
+  opacity: 1;
+  visibility: visible;
+}
+.admin-modal-card {
+  position: relative;
+  background: #fff;
+  width: min(100%, 430px);
+  padding: 27px;
+  border-radius: 14px;
+}
+.admin-modal-card h2 {
+  margin: 6px 0 18px;
+}
+.modal-close {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  font-size: 1.7rem;
+  background: transparent;
+  color: #6d7785;
+}
+.admin-modal-card label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  margin: 12px 0;
+}
+.admin-modal-card input,
+.admin-modal-card select {
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #dce1e7;
+  border-radius: 7px;
+  font: inherit;
+}
+.admin-modal-card form button {
+  width: 100%;
+  margin-top: 10px;
+}
+@media (max-width: 620px) {
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .title {
+    align-items: start;
+    gap: 15px;
+  }
+  .title h1 {
+    font-size: 1.55rem;
+  }
+  .product-row {
+    grid-template-columns: 1fr auto;
+  }
+  .product-row span,
+  .product-row .stock {
+    grid-row: 2;
+  }
+  .product-row i {
+    grid-row: 2;
+  }
+  .edit-button {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}
