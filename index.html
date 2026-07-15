@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masuk — ZOORA Tempest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <main class="login-page">
+        <section class="brand-panel"><a class="brand" href="index.html"><span>Z</span>ZOORA <i>Tempest</i></a>
+            <div class="welcome">
+                <p class="eyebrow">PET MARKETPLACE</p>
+                <h1>Belanja hewan untuk menenemani hidupmu yang kesepian.</h1>
+                <p>Produk pilihan, penjual tepercaya, dan pengalaman belanja yang mudah.</p>
+                <div class="feature-list"><span>✓ Penjual terverifikasi</span><span>✓ Transaksi aman</span><span>✓
+                        Bantuan setiap hari</span></div>
+            </div>
+            <p class="copyright">© 2026 ZOORA Tempest</p>
+        </section>
+        <section class="form-panel">
+            <form class="login-card" id="loginForm">
+                <p class="eyebrow">SELAMAT DATANG</p>
+                <h2>Masuk ke akunmu</h2>
+                <p class="subcopy">Pilih peran untuk melanjutkan ke ZOORA Tempest.</p>
+                <div class="role-options"><button class="role-option selected" data-role="user"
+                        type="button"><span>🐾</span><b>User</b><small>Belanja produk favorit</small></button><button
+                        class="role-option" data-role="admin" type="button"><span>⚙️</span><b>Admin</b><small>Kelola
+                            toko dan pesanan</small></button></div><label>Alamat email<input type="email" id="email"
+                        placeholder="nama@email.com" required></label><label>Kata sandi<input type="password"
+                        id="password" placeholder="Minimal 4 karakter" minlength="4" required></label>
+                <div class="form-line"><label class="remember"><input type="checkbox"> Ingat saya</label><a href="#"
+                        id="forgotPassword">Lupa kata sandi?</a></div><button class="login-button" type="submit">Masuk
+                    ke ZOORA Tempest →</button>
+                <p class="login-message" id="loginMessage" role="status"></p>
+                <p class="register">Belum punya akun? <a href="#" id="registerLink">Daftar sekarang</a></p>
+            </form>
+        </section>
+    </main>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
