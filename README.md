@@ -9,9 +9,9 @@
 | Nama bisnis | ZOORA Tempest |
 | Model bisnis | B2C marketplace kebutuhan dan hewan peliharaan |
 | Teknologi | HTML5, CSS3, JavaScript (Vanilla ES6+), localStorage |
-| Repository GitHub | `https://hafidzraza99-max.github.io/ZOORA-Tempest/` |
-| GitHub Pages | `https://github.com/hafidzraza99-max/ZOORA-Tempest` |
-| Demo lokal | Buka `index.html` |
+| Repository GitHub | `[isi link repository di sini]` |
+| GitHub Pages | `[isi link GitHub Pages di sini]` |
+| Demo lokal | Buka `index.html` melalui browser |
 
 ## Deskripsi & Proposisi Nilai
 
@@ -140,12 +140,25 @@ Raja/
 
 ## Dokumentasi Tampilan
 
-Tambahkan minimal empat tangkapan layar ke folder `screenshots/` sebelum pengumpulan:
+### Tampilan Desktop
 
-1. Login desktop.
-2. Marketplace desktop.
-3. Marketplace mobile (termasuk keranjang/checkout).
-4. Dasbor admin mobile atau desktop.
+| Login | Beranda marketplace |
+| --- | --- |
+| ![Login desktop](screenshots/01-login-desktop.png) | ![Beranda marketplace](screenshots/02-marketplace-hero-desktop.png) |
+
+| Katalog produk | Checkout pembayaran |
+| --- | --- |
+| ![Katalog produk desktop](screenshots/04-katalog-produk-desktop.png) | ![Checkout pembayaran](screenshots/07-checkout-pembayaran.png) |
+
+| Pembayaran berhasil | Dasbor admin |
+| --- | --- |
+| ![Pembayaran berhasil](screenshots/08-pembayaran-berhasil.png) | ![Dasbor admin](screenshots/10-dashboard-admin.png) |
+
+### Tampilan Mobile
+
+| Marketplace mobile | Admin mobile |
+| --- | --- |
+| ![Marketplace mobile](screenshots/12-marketplace-mobile.png) | ![Admin mobile](screenshots/13-admin-mobile.png) |
 
 ## Kontrol Versi & Deployment
 
