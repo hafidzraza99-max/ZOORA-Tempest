@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ZOORA Tempest, marketplace kebutuhan dan hewan peliharaan.">
+  <title>ZOORA Tempest — Marketplace Hewan Peliharaan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/marketplace.css">
+  <link rel="stylesheet" href="css/mobile-fix.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-main">
+      <a class="brand" href="#beranda" aria-label="ZOORA Tempest beranda"><span class="brand-mark">Z</span>ZOORA
+        <i>Tempest</i></a>
+      <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+      <nav class="nav-menu" aria-label="Navigasi utama">
+        <a class="active" href="#beranda">Beranda</a>
+        <a href="#kategori">Kategori</a>
+        <a href="#produk">Produk</a>
+        <a href="#keunggulan">Tentang</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button favorites-button" type="button" aria-label="Produk favorit"
+          title="Produk favorit">♡<span id="favoriteCount" class="count-badge">0</span></button>
+        <button class="cart-button" id="cartButton" type="button">🛒 <span>Keranjang</span><b
+            id="cartCount">0</b></button><button class="history-button" id="historyButton" type="button">Riwayat</button><a class="logout-link" href="index.html" id="logoutLink">Keluar</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="beranda">
+    <section class="hero">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">✦ Marketplace peliharaan terpercaya</p>
+          <h1>Banyak hewan lucu, <em>dalam satu tempat.</em></h1>
+          <p class="hero-description">Temukan hewan peliharaan dan kebutuhannya dari penjual terverifikasi. Aman, mudah,
+            dan penuh kasih.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#produk">Mulai Belanja <span>→</span></a><a
+              class="button button-light" href="#kategori">Jelajahi Kategori</a></div>
+          <div class="trust-row"><span><b>10K+</b> produk tersedia</span><span><b>4.9/5</b> kepuasan pelanggan</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-decoration decoration-one"></div>
+          <div class="hero-decoration decoration-two"></div><img src="images/zoora-collection.jpeg"
+            alt="Koleksi hewan peliharaan ZOORA Tempest">
+          <div class="floating-card"><span class="check">✓</span>
+            <div><b>Penjual terverifikasi</b><small>Belanja tanpa ragu</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories section" id="kategori">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">PILIH SESUAI KEBUTUHAN</p>
+            <h2>Belanja berdasarkan kategori</h2>
+          </div><a href="#produk" class="text-link">Lihat semua →</a>
+        </div>
+        <div class="category-grid"><button class="category-card active" data-category="Semua"><span>🐾</span>Semua
+            Produk</button><button class="category-card" data-category="Reptil"><span>🦎</span>Reptil</button><button
+            class="category-card" data-category="Mamalia"><span>🐱</span>Mamalia</button><button class="category-card"
+            data-category="Aksesoris"><span>🛍️</span>Aksesoris</button><button class="category-card"
+            data-category="Makanan"><span>🥣</span>Makanan</button></div>
+      </div>
+    </section>
+
+    <section class="products section" id="produk">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">PILIHAN TERBAIK UNTUKMU</p>
+            <h2>Produk populer minggu ini</h2>
+          </div>
+          <p class="product-result" id="productResult">Menampilkan 6 produk</p>
+        </div>
+        <div class="shop-toolbar"><label class="search-box"><span>⌕</span><input id="searchInput" type="search"
+              placeholder="Cari hewan atau kebutuhan peliharaan…"></label><label class="sort-box">Urutkan <select
+              id="sortSelect">
+              <option value="popular">Paling populer</option>
+              <option value="low">Harga terendah</option>
+              <option value="high">Harga tertinggi</option>
+            </select></label></div>
+        <div class="products-grid" id="productGrid"></div>
+        <p class="empty-state" id="emptyState" hidden>Produk tidak ditemukan. Coba kata kunci lain.</p>
+      </div>
+    </section>
+
+    <section class="benefits" id="keunggulan">
+      <div class="container benefits-grid">
+        <article><span>🛡️</span>
+          <h3>Transaksi aman</h3>
+          <p>Pembayaran terlindungi dan data Anda dijaga.</p>
+        </article>
+        <article><span>✓</span>
+          <h3>Penjual tepercaya</h3>
+          <p>Setiap mitra melewati proses verifikasi.</p>
+        </article>
+        <article><span>🚚</span>
+          <h3>Pengiriman terpantau</h3>
+          <p>Lacak pesanan hingga sampai ke rumah.</p>
+        </article>
+        <article><span>💬</span>
+          <h3>Bantuan cepat</h3>
+          <p>Tim kami siap membantu setiap hari.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Keranjang belanja" aria-hidden="true">
+    <div class="drawer-header">
+      <h2>Keranjang belanja</h2><button class="close-button" id="closeCart" aria-label="Tutup keranjang">×</button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-footer">
+      <div class="cart-total"><span>Total</span><strong id="cartTotal">Rp0</strong></div><button id="checkoutButton"
+        class="button button-primary button-full">Lanjut ke checkout</button>
+    </div>
+  </aside>
+  <div class="overlay" id="overlay"></div>
+
+  <section class="checkout-modal" id="checkoutModal" aria-hidden="true">
+    <div class="checkout-card">
+      <button class="modal-close" id="closeCheckout" aria-label="Tutup checkout">×</button>
+      <div id="checkoutFormView">
+        <p class="eyebrow">CHECKOUT AMAN</p><h2>Lengkapi pesananmu</h2>
+        <form id="checkoutForm">
+          <label>Nama penerima<input id="receiverName" required placeholder="Nama lengkap"></label>
+          <label>Nomor telepon<input id="receiverPhone" required type="tel" placeholder="08xxxxxxxxxx"></label>
+          <label>Alamat pengiriman<textarea id="receiverAddress" required placeholder="Jalan, nomor rumah, kecamatan, kota"></textarea></label>
+          <label>Metode pembayaran<select id="paymentMethod" required><option value="Transfer Bank">Transfer Bank</option><option value="E-Wallet">E-Wallet</option><option value="Bayar di Tempat">Bayar di Tempat</option></select></label>
+          <section class="stock-check" aria-labelledby="stockCheckTitle"><div><span id="stockCheckTitle">Ketersediaan stok</span><small>Dicek kembali sebelum pembayaran.</small></div><div id="checkoutStockList" class="checkout-stock-list"></div></section>
+          <div class="checkout-summary"><span>Total pembayaran</span><strong id="checkoutTotal">Rp0</strong></div>
+          <button class="button button-primary button-full" type="submit">Bayar sekarang</button>
+        </form>
+      </div>
+      <div class="checkout-success" id="checkoutSuccess" hidden><div class="success-logo">✓</div><p class="eyebrow">PEMBAYARAN BERHASIL</p><h2>Pesananmu diterima!</h2><p>Terima kasih sudah berbelanja di ZOORA Tempest. Pesanan akan segera kami proses.</p><strong id="successOrderId"></strong><button class="button button-primary button-full" id="finishCheckout">Selesai</button></div>
+    </div>
+  </section>
+  <section class="history-modal" id="historyModal" aria-hidden="true"><div class="history-card"><button class="modal-close" id="closeHistory" aria-label="Tutup riwayat">×</button><p class="eyebrow">TRANSAKSI ANDA</p><h2>Riwayat pembayaran</h2><div id="paymentHistory"></div></div></section>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <footer>
+    <div class="container footer-layout">
+      <div><a class="brand brand-footer" href="#beranda"><span class="brand-mark">Z</span>ZOORA <i>Tempest</i></a>
+        <p>Marketplace yang menghubungkan pecinta hewan dengan produk terbaik.</p>
+      </div>
+      <div>
+        <h3>Belanja</h3><a href="#produk">Produk populer</a><a href="#kategori">Kategori</a><a href="#produk">Promo</a>
+      </div>
+      <div>
+        <h3>Bantuan</h3><a href="#produk">Pusat bantuan</a><a href="#produk">Cara belanja</a><a
+          href="#produk">Pengiriman</a>
+      </div>
+      <div>
+        <h3>Hubungi kami</h3>
+        <p>hello@zooratempest.id</p>
+        <p>08.00–21.00 WIB</p>
+      </div>
+    </div>
+    <div class="container copyright">© 2026 ZOORA Tempest. Dibuat dengan kasih untuk hewan peliharaan.</div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
