@@ -1,180 +1,156 @@
-# Clottfits.page — E-Commerce Reworked Fashion
+# ZOORA Tempest
 
-Prototype website e-commerce untuk proyek **“Membangun Website E-Commerce Fungsional dengan Integrasi Strategi Bisnis Modern”**. Clottfits.page menjual kemeja preloved yang dirework menjadi koleksi fashion unik, modern, dan terbatas.
+> Prototype marketplace hewan peliharaan yang responsif, interaktif, dan berorientasi pada pengalaman belanja yang aman.
 
-## Tautan Proyek
+## Informasi Proyek
 
-- Repository GitHub: _tambahkan tautan repository di sini_
-- GitHub Pages: _tambahkan tautan website aktif di sini_
-- Video demo (opsional): _tambahkan tautan video di sini_
+| Item | Keterangan |
+| --- | --- |
+| Nama bisnis | ZOORA Tempest |
+| Model bisnis | B2C marketplace kebutuhan dan hewan peliharaan |
+| Teknologi | HTML5, CSS3, JavaScript (Vanilla ES6+), localStorage |
+| Repository GitHub | `[isi link repository di sini]` |
+| GitHub Pages | `[isi link GitHub Pages di sini]` |
+| Demo lokal | Buka `index.html` melalui browser |
 
-## Ikhtisar Bisnis
+## Deskripsi & Proposisi Nilai
 
-### Nama dan deskripsi
+ZOORA Tempest adalah prototype e-commerce yang membantu pecinta hewan menemukan hewan peliharaan dan kebutuhan pendukungnya dalam satu marketplace. Nilai utama yang ditawarkan adalah katalog yang mudah dijelajahi, penjual terverifikasi, proses checkout yang jelas, serta pengelolaan produk dari sisi admin.
 
-**Clottfits.page** adalah brand fashion upcycling yang mengolah kemeja bekas pilihan menjadi kemeja boxy, model beraksen Cheongsam, serta koleksi terbatas. Setiap produk dipilih dan dirework untuk memperpanjang masa pakai pakaian sekaligus menghasilkan tampilan baru yang lebih berkarakter.
+## Fitur Utama
 
-### Proposisi nilai
+### Pengguna
 
-> Reworked. Unique. Made to Stand Out.
+- Login dengan pilihan peran **User** dan **Admin**.
+- Katalog 13 produk dengan pencarian, filter kategori, dan urut harga.
+- Simpan produk favorit.
+- Keranjang belanja: tambah item, ubah jumlah, hapus item, dan total otomatis.
+- Checkout simulasi dengan data penerima, alamat, dan pilihan metode pembayaran.
+- Halaman pembayaran berhasil dengan nomor pesanan.
+- Riwayat pembayaran tersimpan menggunakan `localStorage`.
+- Tampilan responsif untuk desktop, tablet, dan mobile.
 
-- Produk terbatas dengan karakter yang berbeda.
-- Memadukan fashion modern, thrift, dan upcycling.
-- Detail desain khas, termasuk aksen kancing Cheongsam.
-- Memberi alternatif fashion yang lebih berkelanjutan.
+### Admin
 
-## Target Pasar dan Analisis Pasar
+- Dasbor ringkasan bisnis dan jumlah produk aktif.
+- Daftar katalog yang dapat diklik.
+- Tambah produk baru, termasuk nama, harga, kategori, stok, dan gambar.
+- Edit produk dan stok produk.
+- Data katalog admin tersimpan menggunakan `localStorage`.
 
-| Aspek       | Sasaran                                                                           |
-| ----------- | --------------------------------------------------------------------------------- |
-| Demografis  | Usia 17–30 tahun; pelajar, mahasiswa, dan pekerja muda dengan daya beli menengah. |
-| Geografis   | Konsumen di Indonesia yang terbiasa berbelanja online.                            |
-| Psikografis | Menyukai thrift, streetwear, vintage, dan produk tidak massal.                    |
-| Perilaku    | Aktif di Instagram, TikTok, marketplace, serta tertarik pada tren fashion unik.   |
+## Target Pasar & Segmentasi
 
-Peluang utama berasal dari meningkatnya minat terhadap thrift dan produk upcycling. Kompetitor meliputi toko thrift online, brand fashion lokal, penjual vintage, dan UMKM upcycling. Keunggulan Clottfits.page terletak pada proses rework, stok terbatas, identitas visual konsisten, serta detail desain Cheongsam.
+1. **Pemilik hewan pemula** — membutuhkan informasi dan proses belanja yang sederhana.
+2. **Pecinta reptil dan hewan eksotis** — mencari produk yang lebih spesifik dan penjual tepercaya.
+3. **Keluarga muda** — membutuhkan produk pendukung seperti makanan, carrier, grooming, dan tempat tidur hewan.
+4. **Usia 17–40 tahun di kota besar** — aktif menggunakan perangkat mobile serta terbiasa berbelanja online.
 
-## Strategi Bisnis
+## Analisis Pasar & Pesaing
 
-### Model bisnis dan pendapatan
+Pasar kebutuhan hewan tumbuh karena meningkatnya jumlah pemilik hewan dan kecenderungan memperlakukan hewan sebagai anggota keluarga. Kompetitor umum meliputi marketplace besar dengan kategori pet supplies dan toko hewan lokal yang menjual melalui media sosial.
 
-Clottfits.page menggunakan model **Business to Consumer (B2C)**. Pendapatan berasal dari penjualan langsung koleksi Kemeja Boxy, Kemeja Cheongsam, dan Limited Edition melalui website.
+Strategi pembeda ZOORA Tempest adalah fokus pada pengalaman belanja khusus hewan: kurasi katalog, informasi penjual terverifikasi, pengelompokan produk yang mudah, dan alur checkout yang sederhana.
 
-### Manajemen produk dan katalog
+## Strategi Produk & Katalog
 
-Katalog berisi **12 produk** dengan foto, nama, harga, kategori, deskripsi, dan stok. Kategori yang dikelola adalah:
+Katalog menggunakan visual produk, nama yang ringkas, harga, rating, jumlah terjual, serta label seperti *Terlaris* dan *Baru*. Produk mencakup mamalia, reptil, serta perlengkapan pendukung. Admin dapat menambah, memperbarui stok, mengganti detail, dan menambahkan gambar produk.
 
-- Kemeja Boxy — potongan modern, santai, dan mudah dipadukan.
-- Kemeja Cheongsam — detail kancing khas untuk tampilan unik.
-- Limited Edition — koleksi eksklusif dengan jumlah terbatas.
+## Model Bisnis & Pendapatan
 
-Foto produk berada di folder `image/` dan dinamai konsisten dari `produk-01.jpeg` sampai `produk-12.jpeg`.
+| Sumber pendapatan | Penjelasan |
+| --- | --- |
+| Komisi transaksi | Persentase dari setiap transaksi yang berhasil. |
+| Biaya layanan penjual | Paket promosi atau fitur katalog premium. |
+| Produk unggulan | Penjual membayar untuk menampilkan produk di area prioritas. |
+| Kolaborasi brand | Promosi produk makanan, aksesori, dan kebutuhan hewan. |
 
-### Harga, promosi, dan diskon
+## Strategi Harga, Promo, & Diskon
 
-Harga menggunakan pendekatan **value-based pricing** dengan mempertimbangkan biaya bahan, proses rework, aksesori, tingkat keunikan, dan margin. Promosi direncanakan melalui konten Instagram/TikTok, OOTD, video proses rework, kolaborasi kreator, flash sale, giveaway, dan diskon musiman.
+- Harga mengikuti kualitas produk, stok, dan harga pasar.
+- Label promo seperti gratis ongkir, produk baru, dan produk terlaris membantu konversi.
+- Rencana promosi mencakup voucher pengguna baru, bundling kebutuhan hewan, flash sale, dan gratis ongkir minimum belanja tertentu.
 
-## Fitur Website
+## Checkout & Simulasi Pembayaran
 
-### Akses pengguna dan admin
+Checkout pada prototype meminta nama penerima, nomor telepon, alamat, dan metode pembayaran: Transfer Bank, E-Wallet, atau Bayar di Tempat. Setelah formulir valid, sistem menampilkan status pembayaran berhasil dan menyimpan riwayat transaksi secara lokal.
 
-- Halaman login awal dengan pilihan peran pengguna atau admin.
-- Pengguna memasukkan nama untuk masuk ke toko.
-- Admin menggunakan akun demo: `admin` / `clottfits123`.
-- Halaman admin diproteksi berdasarkan peran login.
+Untuk implementasi produksi, simulasi ini dapat diintegrasikan dengan **Midtrans** atau **Xendit**. Server backend wajib membuat token transaksi dan memverifikasi status pembayaran melalui webhook agar pembayaran tidak hanya bergantung pada sisi browser.
 
-### Halaman pembeli
-
-- Navbar, hero banner, banner tentang, benefit, dan footer.
-- Katalog 12 produk yang responsif.
-- Pencarian produk dan filter kategori.
-- Detail produk.
-- Tambah ke keranjang, ubah jumlah, hapus item, serta total otomatis.
-- Keranjang disimpan di `localStorage`.
-- Animasi dan pengguliran halus.
-
-### Checkout dan simulasi pembayaran
-
-Checkout menyediakan validasi data pelanggan, alamat, pengiriman, dan pilihan metode pembayaran. Metode yang disimulasikan meliputi QRIS, GoPay, DANA, OVO, dan transfer bank. Sistem ini adalah **simulasi**, sehingga tidak memproses uang asli atau terhubung ke payment gateway produksi.
-
-Alur transaksi:
-
-1. Pengguna login dan memilih produk.
-2. Produk dimasukkan ke keranjang dan disimpan di `localStorage`.
-3. Pengguna mengisi formulir checkout serta memilih pengiriman dan pembayaran.
-4. Formulir divalidasi, lalu pesanan disimpan secara lokal.
-5. Pesanan dapat dipantau di dashboard admin.
-
-### Dashboard admin
-
-- Statistik produk, pesanan, pelanggan, dan pendapatan.
-- Tambah, edit, dan hapus produk.
-- Pemulihan katalog bawaan untuk data lama.
-- Daftar pesanan, detail pesanan, dan perubahan status pesanan.
-- Data pelanggan dari pesanan yang masuk.
-
-## Analitik, SEO, Keamanan, dan Pemeliharaan
-
-### Google Analytics
-
-Script Google Analytics dummy tersedia pada halaman utama sebagai placeholder integrasi. Saat website dipublikasikan, ID dummy perlu diganti dengan Measurement ID Google Analytics yang valid.
-
-Metrik yang akan dipantau:
-
-- Jumlah pengunjung dan sumber trafik.
-- Bounce rate / engagement rate.
-- Produk dan kategori yang paling sering dilihat.
-- Penggunaan pencarian dan filter.
-- Konversi dari katalog ke keranjang, checkout, hingga pesanan.
-- Perangkat yang digunakan pengunjung untuk evaluasi responsivitas.
+## SEO, Keamanan, & Pemeliharaan
 
 ### SEO
 
-- Judul halaman yang relevan dan deskriptif.
-- Struktur HTML semantik.
-- Teks alternatif pada gambar produk dan banner.
-- Kata kunci relevan: `reworked fashion`, `upcycle fashion`, `kemeja boxy`, dan `fashion preloved`.
-- Rencana lanjutan: sitemap, meta description per halaman, dan Open Graph untuk media sosial.
+- Gunakan judul halaman dan meta description yang relevan.
+- Tambahkan kata kunci natural seperti “marketplace hewan peliharaan”, “reptil”, dan “kebutuhan hewan”.
+- Optimalkan `alt` pada gambar produk dan struktur heading yang semantik.
+- Buat sitemap, robots.txt, dan halaman produk individual saat aplikasi dikembangkan lebih lanjut.
 
-### Keamanan dan pemeliharaan
+### Keamanan
 
-Versi prototype menggunakan `localStorage`; akun admin dan pembayaran bersifat demo. Pada versi produksi, autentikasi harus memakai server, password yang di-hash, koneksi HTTPS, validasi input sisi server, database, serta payment gateway resmi seperti Midtrans atau Xendit. Pemeliharaan meliputi pembaruan katalog, pengecekan stok, backup data, pengujian lintas perangkat, dan evaluasi analitik berkala.
+- Validasi input form di sisi klien; produksi harus menambahkan validasi sisi server.
+- Jangan menyimpan data pembayaran sensitif di `localStorage`.
+- Gunakan HTTPS, sanitasi input, autentikasi aman, serta token/CSRF protection pada backend.
+- Pembayaran produksi harus melalui payment gateway tepercaya.
 
-## Teknologi dan Implementasi
+### Pemeliharaan
 
-- HTML5
-- CSS3, Flexbox, CSS Grid, dan media query
-- JavaScript modern (ES6+)
-- `localStorage` untuk data login demo, keranjang, katalog, dan pesanan
-- Google Analytics dummy
-- Git, GitHub, dan GitHub Pages
+- Perbarui stok dan harga secara berkala.
+- Uji tampilan pada desktop, tablet, dan mobile setelah setiap perubahan.
+- Pantau error JavaScript dan masukan pengguna untuk perbaikan pengalaman belanja.
 
-Website dibuat dengan HTML, CSS, dan JavaScript vanilla tanpa framework agar implementasi dasar front-end dapat dipahami langsung.
+## Rencana Analytics
 
-## Responsivitas
+Google Analytics 4 dapat dipasang menggunakan script dummy/Measurement ID saat deployment. Metrik utama yang dipantau:
 
-Tampilan dirancang untuk desktop, tablet, dan seluler. Layout katalog, checkout, detail produk, dashboard admin, navigasi, banner, dan formulir menggunakan breakpoint media query agar tetap mudah digunakan pada layar kecil.
+- **Bounce rate / engagement rate:** mengevaluasi kualitas halaman awal dan katalog.
+- **Konversi:** perbandingan pengunjung, produk ditambahkan ke keranjang, checkout, dan pembayaran berhasil.
+- **Produk populer:** dasar untuk pengadaan stok dan promosi.
+- **Perangkat & ukuran layar:** memastikan prioritas optimasi mobile.
+- **Sumber trafik:** mengukur efektivitas SEO, media sosial, dan kampanye promosi.
 
 ## Struktur Folder
 
 ```text
-CLOTTFITS.PAGE/
-├── index.html              # Halaman toko dan katalog
-├── detail.html             # Halaman detail produk
-├── checkout.html           # Halaman checkout
-├── login.html              # Login pengguna dan admin
-├── admin.html              # Dashboard admin
-├── README.md
+Raja/
+├── index.html              # Halaman login
+├── marketplace.html        # Katalog, keranjang, checkout, riwayat pembayaran
+├── admin.html              # Dasbor pengelolaan produk
 ├── css/
-│   ├── style.css            # Gaya halaman toko
-│   └── admin.css            # Gaya dashboard admin
+│   ├── style.css
+│   ├── marketplace.css
+│   ├── mobile-fix.css
+│   ├── login.css
+│   ├── admin.css
+│   ├── admin-extra.css
+│   └── admin-mobile-fix.css
 ├── js/
-│   ├── auth.js              # Proteksi akses berdasarkan peran
-│   ├── script.js            # Katalog dan keranjang
-│   └── admin.js             # Manajemen katalog dan pesanan
-└── image/
-    ├── logo .jpeg
-    ├── banner.jpeg
-    ├── banner tentang.jpeg
-    └── produk-01.jpeg ... produk-12.jpeg
+│   ├── login.js
+│   ├── app.js
+│   └── admin.js
+├── images/                 # Aset produk
+└── screenshots/            # Tangkapan layar desktop dan mobile
 ```
 
 ## Cara Menjalankan
 
-1. Unduh atau clone repository.
-2. Buka `login.html` melalui browser atau Live Server.
-3. Masuk sebagai pengguna untuk mengakses toko, atau gunakan akun admin demo untuk dashboard.
+1. Unduh atau clone repository ini.
+2. Buka folder proyek.
+3. Jalankan `index.html` pada browser modern.
+4. Pilih peran **User** untuk marketplace atau **Admin** untuk dasbor pengelolaan produk.
 
-## Dokumentasi Pengumpulan
+## Dokumentasi Tampilan
 
-Sebelum dikumpulkan, lengkapi bagian berikut:
+Tambahkan minimal empat tangkapan layar ke folder `screenshots/` sebelum pengumpulan:
 
-- [ ] Tautan repository GitHub pada bagian **Tautan Proyek**.
-- [ ] Tautan GitHub Pages yang aktif.
-- [ ] Minimal 8–10 commit Git yang bermakna.
-- [ ] Minimal empat screenshot: beranda desktop, katalog/keranjang, checkout, dan tampilan mobile.
-- [ ] Video demo 2–3 menit (opsional).
+1. Login desktop.
+2. Marketplace desktop.
+3. Marketplace mobile (termasuk keranjang/checkout).
+4. Dasbor admin mobile atau desktop.
+
+## Kontrol Versi & Deployment
+
+Gunakan commit Git yang bermakna, misalnya: `feat: tambah checkout`, `fix: perbaiki responsif mobile`, atau `docs: lengkapi README`. Setelah repository diunggah ke GitHub, aktifkan GitHub Pages melalui **Settings → Pages** dan masukkan tautannya pada bagian Informasi Proyek.
 
 ## Catatan
 
-Proyek ini dibuat untuk kebutuhan pembelajaran dan demonstrasi e-commerce. Gambar dan data transaksi digunakan untuk prototype, bukan sistem penjualan produksi.
+Website ini dibuat untuk kebutuhan prototype tugas “Membangun Website E-Commerce Fungsional dengan Integrasi Strategi Bisnis Modern”. Integrasi pembayaran dan analytics masih berupa rancangan/simulasi; implementasi produksi memerlukan backend serta kredensial layanan resmi.
