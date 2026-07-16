@@ -11,7 +11,7 @@
 | Teknologi | HTML5, CSS3, JavaScript (Vanilla ES6+), localStorage |
 | Repository GitHub | `https://hafidzraza99-max.github.io/ZOORA-Tempest/` |
 | GitHub Pages | `https://github.com/hafidzraza99-max/ZOORA-Tempest` |
-| Demo lokal | Buka `index.html` |
+| Demo lokal | Buka `https://youtu.be/OkWLYoOVT54?si=uCH8f4qcPn6TFOj0` |
 
 ## Deskripsi & Proposisi Nilai
 
@@ -161,11 +161,11 @@ Raja/
 
 ## Deployment
 
-Repository GitHub : https://hafidzraza99-max.github.io/ZOORA-Tempest/
+Repository GitHub : <https://hafidzraza99-max.github.io/ZOORA-Tempest/>
 
-GitHub Pages : https://github.com/hafidzraza99-max/ZOORA-Tempest
+GitHub Pages : <https://github.com/hafidzraza99-max/ZOORA-Tempest>
 
-Demo lokal : <>
+Demo lokal : <https://youtu.be/OkWLYoOVT54?si=uCH8f4qcPn6TFOj0>
 
 
 ## Catatan
