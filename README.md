@@ -42,8 +42,7 @@ ZOORA Tempest adalah prototype e-commerce yang membantu pecinta hewan menemukan 
 
 1. **Pemilik hewan pemula** — membutuhkan informasi dan proses belanja yang sederhana.
 2. **Pecinta reptil dan hewan eksotis** — mencari produk yang lebih spesifik dan penjual tepercaya.
-3. **Keluarga muda** — membutuhkan produk pendukung seperti makanan, carrier, grooming, dan tempat tidur hewan.
-4. **Usia 17–40 tahun di kota besar** — aktif menggunakan perangkat mobile serta terbiasa berbelanja online.
+3. **Usia 17–40 tahun di kota besar** — aktif menggunakan perangkat mobile serta terbiasa berbelanja online.
 
 ## Analisis Pasar & Pesaing
 
